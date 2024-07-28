@@ -1,0 +1,159 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  background-image: url('/background.jpg');
+  background-size: cover; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header and Footer Styling */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4CAF50;
+  padding: 10px 20px;
+}
+
+.header-wrapper ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper ul li {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.header-wrapper ul li a, .header-wrapper ul li button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.header-wrapper ul li a:hover, .header-wrapper ul li button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #0e0d0d;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+/* Form Styling */
+.signup-wrapper,
+.login-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-wrapper {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-error {
+  font-size: 16px;
+  color: red;
+  display: flex;
+}
+
+.input-wrapper:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.toggle-wrapper {
+  margin: 20px 0;
+}
+
+.button-login {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-login:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+

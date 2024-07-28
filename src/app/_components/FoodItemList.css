@@ -1,0 +1,54 @@
+.table-container {
+  margin: 20px;
+}
+
+.food-item-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  color: black
+}
+
+.food-item-table th,
+.food-item-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.food-item-table th {
+  text-align: left;
+}
+
+.food-item-table tr:nth-child(even) {
+  background-color: #3885b4;
+}
+
+.food-item-table tr:hover {
+  background-color: #ddd;
+}
+
+.food-item-table th,
+.food-item-table td {
+  padding: 12px 15px;
+}
+
+.food-item-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.button-delete {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-login:hover {
+  background-color: hsl(347, 86%, 43%);
+  color: rgb(229, 31, 31);
+}

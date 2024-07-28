@@ -1,0 +1,87 @@
+/* Container styling */
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-wrapper {
+  width: 80%; /* Adjust the width to be less than the container */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button-login {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-login:hover {
+  background-color: #45a049;
+}
+
+/* Label styling */
+label {
+  width: 20%;
+  font-weight: bold;
+}
+
+/* Table styling similar to the provided screenshot */
+.table-container {
+  margin: 20px;
+}
+
+.food-item-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.food-item-table th,
+.food-item-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.food-item-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.food-item-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.food-item-table tr:hover {
+  background-color: #ddd;
+}
+
+.food-item-table th,
+.food-item-table td {
+  padding: 12px 15px;
+}
+
+.food-item-table th {
+  background-color: #4CAF50;
+  color: white;
+}

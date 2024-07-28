@@ -1,0 +1,70 @@
+/* restroPage.css */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.restaurant-page-banner {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.restro-detail-wrapper {
+  background-color: rgba(0, 128, 0, 0.8); /* Green background with transparency */
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.food-list-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-list-item div {
+  margin-bottom: 10px;
+}
+
+.food-description {
+  font-style: italic;
+  color: #555;
+}
+
+.button {
+  background-color: #FFA500; /* Orange color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #FF8C00; /* Darker orange on hover */
+}
+
+h1, h3 {
+  margin: 0;
+  padding: 10px;
+}
